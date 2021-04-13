@@ -1,13 +1,12 @@
 import React from 'react';
-import ReactDom from 'react-dom';
+import ReactDOM from 'react-dom';
+import App from './App';
 
-const root = document.getElementById('root');
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-/* eslint-disable arrow-body-style */
-const App = () => {
-  return (
-    <h1>Hello from React</h1>
-  );
-};
-
-ReactDom.render(<App />, root);
+ReactDOM.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById('root'),
+);
