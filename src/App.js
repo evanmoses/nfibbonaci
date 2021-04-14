@@ -19,7 +19,7 @@ function App() {
 
   const validateTextInput = (e) => {
     const { value } = e.target;
-    if (value > 0 && value < 501) {
+    if (Number.isInteger(parseFloat(value)) && value > 0 && value < 501) {
       handleNumChange(e);
       setInputError(false);
     } else {
