@@ -1,5 +1,5 @@
-# nfibonacci
-returns fibbonaci sequence to a specified number of digits
+# The Fibonacci Mahchine
+Displays the Fibonacci sequence to a specified number of digits
 
 To install and run on your system
 ```
