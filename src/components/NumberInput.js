@@ -31,7 +31,7 @@ function NumberInput(props) {
             <Col xs={9}>
               <RangeSlider
                 value={props.numOfValues}
-                onChange={(e) => props.handleNumChange(e)}
+                onChange={(e) => props.handleSliderChange(e)}
                 min={1}
                 max={500}
               />

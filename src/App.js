@@ -12,6 +12,11 @@ function App() {
     setNumOfValues(e.target.value);
   };
 
+  const handleSliderChange = (e) => {
+    setInputError(false);
+    handleNumChange(e);
+  };
+
   const validateTextInput = (e) => {
     const { value } = e.target;
     if (value > 0 && value < 501) {
@@ -28,7 +33,7 @@ function App() {
       <Title />
       <NumberInput
         numOfValues={numOfValues}
-        handleNumChange={handleNumChange}
+        handleSliderChange={handleSliderChange}
         inputError={inputError}
         validateTextInput={validateTextInput}
       />
