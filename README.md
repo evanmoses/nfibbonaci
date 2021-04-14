@@ -1,5 +1,5 @@
 # Fibonacci Machine
-Displays the Fibonacci sequence to a specified number of digits
+Displays the Fibonacci sequence to a specified number in the sequence
 
 To install and run on your system
 ```
