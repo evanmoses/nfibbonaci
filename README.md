@@ -1,4 +1,4 @@
-# The Fibonacci Mahchine
+# Fibonacci Machine
 Displays the Fibonacci sequence to a specified number of digits
 
 To install and run on your system
