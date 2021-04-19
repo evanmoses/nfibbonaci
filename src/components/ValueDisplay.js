@@ -3,7 +3,7 @@ import React from 'react';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
-import sequence from '../lib/sequence.js';
+import sequence from '../lib/sequence';
 
 function ValueDisplay(props) {
   const sequenceToIndex = sequence.slice(0, (props.numOfValues));

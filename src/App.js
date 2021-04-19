@@ -1,8 +1,8 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 
-import Title from './components/Title.js';
-import NumberInput from './components/NumberInput.js';
-import ValueDisplay from './components/ValueDisplay.js';
+import Title from './components/Title';
+import NumberInput from './components/NumberInput';
+import ValueDisplay from './components/ValueDisplay';
 
 function App() {
   const [numOfValues, setNumOfValues] = useState(10);
